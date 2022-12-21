@@ -1,0 +1,10 @@
+.env
+package-lock.json
+node_modules
+dist
+config
+!src/**/*
+.tsbuildinfo
+.evershop
+.idea
+.log
