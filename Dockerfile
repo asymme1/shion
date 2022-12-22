@@ -9,5 +9,5 @@ RUN npm run build
 
 FROM node:18-alpine3.17 as run
 WORKDIR /app
-COPY --from=build . . 
+COPY --from=build /app . 
 CMD npm start
