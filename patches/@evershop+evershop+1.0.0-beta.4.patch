@@ -1,0 +1,34 @@
+diff --git a/node_modules/@evershop/evershop/src/modules/catalog/pages/frontStore/homepage/FeaturedCategories.js b/node_modules/@evershop/evershop/src/modules/catalog/pages/frontStore/homepage/FeaturedCategories.js
+index ead548d..6b573d8 100755
+--- a/node_modules/@evershop/evershop/src/modules/catalog/pages/frontStore/homepage/FeaturedCategories.js
++++ b/node_modules/@evershop/evershop/src/modules/catalog/pages/frontStore/homepage/FeaturedCategories.js
+@@ -56,6 +56,6 @@ export default function FeaturedCategories() {
+ }
+ 
+ export const layout = {
+-  areaId: 'content',
++  areaId: '1',
+   sortOrder: 10
+ }
+diff --git a/node_modules/@evershop/evershop/src/modules/cms/pages/frontStore/homepage/MainBanner.js b/node_modules/@evershop/evershop/src/modules/cms/pages/frontStore/homepage/MainBanner.js
+index ce422b6..0691615 100755
+--- a/node_modules/@evershop/evershop/src/modules/cms/pages/frontStore/homepage/MainBanner.js
++++ b/node_modules/@evershop/evershop/src/modules/cms/pages/frontStore/homepage/MainBanner.js
+@@ -8,7 +8,7 @@ export default function MainBanner() {
+       <div className="container grid grid-cols-1 md:grid-cols-2 gap-2">
+         <div></div>
+         <div className='text-center md:text-left px-2 '>
+-          <h2 className="h1 ">Discount <span className='text-white'>20%</span> For All Orders Over $2000</h2>
++          <h2 className="h1 ">Discount1 <span className='text-white'>20%</span> For All Orders Over $2000</h2>
+           <p>Use coupon code <span className="font-bold">DISCOUNT20</span></p>
+           <Button url="/category/women" title="SHOP NOW" variant="primary" />
+         </div>
+@@ -18,6 +18,6 @@ export default function MainBanner() {
+ }
+ 
+ export const layout = {
+-  areaId: 'content',
++  areaId: '',
+   sortOrder: 1
+ };
+\ No newline at end of file
